@@ -1,0 +1,21 @@
+{
+  "name": "2fa-poc",
+  "version": "1.0.0",
+  "description": "Secure offline TOTP-based 2FA login system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "otplib": "^12.0.1",
+    "qrcode": "^1.5.3",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
