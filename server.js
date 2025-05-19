@@ -54,7 +54,7 @@ app.post('/api/register', async (req, res) => {
         }
 
         // Generate QR code
-        const otpauth = authenticator.keyuri(username, '2FA-POC', secret);
+        const otpauth = authenticator.keyuri(username, '2FA-TOTP', secret);
         QRCode.toDataURL(otpauth, (err, dataUrl) => {
           if (err) {
             return res.status(500).json({ error: 'Error generating QR code' });

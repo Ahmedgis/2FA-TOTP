@@ -1,5 +1,5 @@
 {
-  "name": "2fa-poc",
+  "name": "offline-totp",
   "version": "1.0.0",
   "description": "Secure offline TOTP-based 2FA login system",
   "main": "server.js",
