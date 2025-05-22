@@ -20,9 +20,9 @@ This project demonstrates the implementation of a two-factor authentication (2FA
 
 ## Screenshots
 
-![New User Registeration](./screenshots/register.png)
-![QR Code Generation](./screenshots/qr-code.png)
-![Login](./screenshots/login.png)
+![New User Registeration](./screenshots/1.png)
+![QR Code Generation](./screenshots/2.png)
+![Login](./screenshots/3.png)
 
 ## Getting Started
 
