@@ -1,5 +1,37 @@
 # 2FA Time-Based OTP Demo
 
+This project demonstrates the implementation of a two-factor authentication (2FA) system using time-based one-time passwords (TOTP) in a web application. The application allows users to generate and verify TOTP codes, providing an extra layer of security for user accounts.
+
+## Features
+
+- User registration and login with 2FA enabled.
+- Generation of TOTP codes based on a secret key.
+- Verification of TOTP codes entered by the user.
+- Integration with a backend server for user management and TOTP generation.
+- User-friendly interface for generating and verifying TOTP codes.
+- Secure storage of user data and TOTP secrets.
+- Error handling and validation for user inputs.
+
+## Technologies Used
+
+- Frontend: Angular, HTML, CSS
+- Backend: Node.js, Express.js
+- Database: SqLite
+
+## Screenshots
+
+![New User Registeration](./screenshots/register.png)
+![QR Code Generation](./screenshots/qr-code.png)
+![Login](./screenshots/login.png)
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone the repository: `git clone git@github.com:Ahmedgis/2FA-TOTP.git`  
+2. Install the dependencies: `npm install`
+
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
 
 ## Development server
